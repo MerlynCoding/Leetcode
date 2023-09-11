@@ -12,6 +12,6 @@ it is about every problem that i solved in Leetcode website
 | 5 | [...](link_to_problem) | [Python](link_to_solution.py) | Difficulty |
 
 **Progress Tracker:**
-- Easy Problems Solved: [![Easy Problems](https://img.shields.io/badge/easy-0-green)](link_to_easy_problems)
-- Medium Problems Solved: [![Medium Problems](https://img.shields.io/badge/medium-0-blue)](link_to_medium_problems)
-- Hard Problems Solved: [![Hard Problems](https://img.shields.io/badge/hard-0-red)](link_to_hard_problems)
+- Easy Problems Solved: [![Easy Problems](https://img.shields.io/badge/easy-0-green)](https://github.com/MerlynCoding/Leetcode)
+- Medium Problems Solved: [![Medium Problems](https://img.shields.io/badge/medium-0-blue)](https://github.com/MerlynCoding/Leetcode)
+- Hard Problems Solved: [![Hard Problems](https://img.shields.io/badge/hard-0-red)](https://github.com/MerlynCoding/Leetcode)
