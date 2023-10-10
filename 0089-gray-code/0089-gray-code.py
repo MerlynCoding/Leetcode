@@ -1,7 +1,11 @@
 class Solution(object):
     def grayCode(self, n):
-        k=[]
-        for i in range(0,2**n):
-            k.append(i^(i>>1))
-        return k
+        arr = []
+        arr.append(0)
+        for i in range(1,n+1):
+            prevLength = len(arr)
+            mask = 1 << (i-1)
+            for j in range(prevLength, 0, -1):
+                arr.append(mask + arr[j-1])
+        return arr
         
