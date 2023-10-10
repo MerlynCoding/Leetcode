@@ -3,7 +3,7 @@ class Solution(object):
         arr=[0]
         for i in range(1,n+1):
             mask=1<<(i-1)
-            for j in range(len(arr),0,-1):
-                arr.append(mask+arr[j-1])
+            for j in arr[::-1]:
+                arr.append(mask+j)
         return arr
         
