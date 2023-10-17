@@ -1,6 +1,6 @@
 
 
 **Progress Tracker:**
-- Easy Problems Solved: [![Easy Problems](https://img.shields.io/badge/easy-25-green)]
+- Easy Problems Solved: [![Easy Problems](https://img.shields.io/badge/easy-30-green)]
 - Medium Problems Solved: [![Medium Problems](https://img.shields.io/badge/medium-1-blue)]
 - Hard Problems Solved: [![Hard Problems](https://img.shields.io/badge/hard-0-red)]
