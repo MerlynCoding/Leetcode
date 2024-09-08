@@ -1,10 +1,11 @@
 class Solution(object):
     def twoSum(self, nums, target):
-        answer=[]
-        for i in range(len(nums)):
-            ranged=target-nums[i]
-            if ranged in nums and nums.index(ranged)!=i :
-                
-                answer+=[i,nums.index(ranged)]
-                return sorted(answer)
-                break
+        for i in range(0,len(nums)):
+            for j in range(i+1,len(nums)):
+                if target==nums[i]+nums[j]:
+                    return(i,j)
+            
+            
+
+
+        
