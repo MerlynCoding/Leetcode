@@ -2,20 +2,10 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s)!=len(t):
             return False
-        hashmap={}
-        for i in s:
-            if i not in hashmap :
-                hashmap[i]=1
-            else:
-                hashmap[i]+=1
-        for i in t:
-            if i in hashmap:
-                hashmap[i]-=1
-            else:
-                hashmap[i]=-1
-        for i in hashmap.values():
-            if i <0 or i>0:
-                return False
-        return True
-            
+        cS={}
+        ct={}
+        for i in range(len(s)):
+            cS[s[i]]=1+cS.get(s[i],0)
+            ct[t[i]]=1+ct.get(t[i],0)
         
+        return cS==ct
